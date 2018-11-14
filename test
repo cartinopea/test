@@ -1,0 +1,5 @@
+curl -u cédric:WN1j-RJVj_lnIE6xYN4VNv4UntIgnho6QSciiyTbmiF6-X POST \
+--header "Content-Type: audio/wav" \
+--header "Transfer-Encoding: chunked" \
+--data-binary @"Desktop/speechtotexten.wav" \
+"https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?continuous=true"
